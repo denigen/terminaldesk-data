@@ -12,7 +12,7 @@
     "bias": "WAIT",
     "quality": "B",
     "banner": "SAMPLE DATA \u2014 Last above VAL, WAIT for ONL sweep-reclaim LONG. Not a live brief.",
-    "chartUrl": null,
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-10.jpg",
     "chartLabel": "Chart \u00b7 NY VPSV \u00b7 5M",
     "levels": {
       "onh": 95880.0,
@@ -67,7 +67,7 @@
         "t3": "1.08700",
         "watch": "Invalid if 1H closes above 1.09640",
         "bestWindow": "9:30\u201310:15 ET",
-        "chartUrl": null
+        "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/cadchf-sample.jpg"
       }
     ],
     "skipped": [
@@ -84,7 +84,7 @@
     ],
     "emptySummary": null,
     "emptyWatch": null,
-    "emptyChartUrl": null,
+    "emptyChartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/cadchf-sample.jpg",
     "filterNote": "SAMPLE demo. Filter: short, above 6/14/25/80/200, into resistance, bearish print. Analysis, not advice."
   }
 }
