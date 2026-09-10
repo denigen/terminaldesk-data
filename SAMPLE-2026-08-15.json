@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-15",
+  "sample": true,
+  "label": "SAMPLE demo \u2014 FX SHORT populated",
+  "refreshedAt": "2026-08-15T12:00:00Z",
+  "btc": {
+    "date": "2026-08-15",
+    "when": "Fri Aug 15 \u00b7 ~7:50am ET",
+    "symbol": "BTC / USD",
+    "last": 95240.0,
+    "bias": "WAIT",
+    "quality": "B",
+    "banner": "SAMPLE DATA \u2014 Last above VAL, WAIT for ONL sweep-reclaim LONG. Not a live brief.",
+    "chartUrl": null,
+    "chartLabel": "Chart \u00b7 NY VPSV \u00b7 5M",
+    "levels": {
+      "onh": 95880.0,
+      "onl": 94120.0,
+      "vah": 96100.0,
+      "poc": 95450.0,
+      "val": 94800.0
+    },
+    "context": {
+      "vsVal": 440.0,
+      "vsPoc": -210.0,
+      "vsVah": -860.0,
+      "vsOnh": -640.0,
+      "vsOnl": 1120.0,
+      "vaWidth": 1300.0,
+      "delta": "+12K",
+      "window": "9:10\u20139:30",
+      "volume": "210K"
+    },
+    "setup": {
+      "tag": "LONG \u00b7 ONL SWEEP RECLAIM",
+      "trigger": "SAMPLE \u2014 5m wick through ONL 94,120 then close and hold back above. Skip first 10\u201315 min unless reclaim already printed.",
+      "entry": "94,120\u201394,320",
+      "stop": "93,950",
+      "t1": "94,800",
+      "t2": "95,450",
+      "t3": "96,100"
+    },
+    "invalidation": "5m close back below 93,950.",
+    "notes": "SAMPLE demo package only. Analysis, not financial advice."
+  },
+  "fx": {
+    "date": "2026-08-15",
+    "when": "Fri Aug 15 \u00b7 ~8:05am ET",
+    "title": "FX shorts",
+    "subtitle": "AM forex \u00b7 NY window 9:30\u201310:15",
+    "bias": "SHORT",
+    "countPass": 1,
+    "countTotal": 11,
+    "trades": [
+      {
+        "pair": "EURUSD",
+        "bias": "SHORT",
+        "quality": "B",
+        "last": "1.09420",
+        "why": "SAMPLE \u2014 EURUSD 4H above full EMA stack, tagging prior day supply ~1.0950. Bearish engulf on 1H into resistance. DXY firm (+0.28%).",
+        "trigger": "5m reject / close back below 1.09450 after poke into 1.0950\u20131.0958",
+        "entry": "1.09420\u20131.09480",
+        "stop": "1.09640",
+        "t1": "1.09180",
+        "t2": "1.08950",
+        "t3": "1.08700",
+        "watch": "Invalid if 1H closes above 1.09640",
+        "bestWindow": "9:30\u201310:15 ET",
+        "chartUrl": null
+      }
+    ],
+    "skipped": [
+      "CADCHF",
+      "AUDUSD",
+      "CADJPY",
+      "USDCHF",
+      "USDCAD",
+      "USDJPY",
+      "AUDCAD",
+      "NZDUSD",
+      "GBPUSD",
+      "EURCAD"
+    ],
+    "emptySummary": null,
+    "emptyWatch": null,
+    "emptyChartUrl": null,
+    "filterNote": "SAMPLE demo. Filter: short, above 6/14/25/80/200, into resistance, bearish print. Analysis, not advice."
+  }
+}

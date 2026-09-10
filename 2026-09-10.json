@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-10",
+  "sample": false,
+  "label": "Thu Sep 10 — live brief",
+  "refreshedAt": "2026-09-10T16:00:13Z",
+  "btc": {
+    "date": "2026-09-10",
+    "when": "Thu Sep 10 · ~7:45am ET",
+    "symbol": "BTC / USD",
+    "last": 77993.6,
+    "bias": "WAIT",
+    "quality": "C",
+    "banner": "Last 77,993.6 below value (under VVAL 78,279.8). WAIT — VVAL reclaim LONG. HTF unread · SMC gate FAIL until reclaim.",
+    "chartUrl": null,
+    "chartLabel": "Chart · NY VPSV · 5M",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": 79090.5,
+      "poc": 78611.5,
+      "val": 78279.8
+    },
+    "context": {
+      "vsVal": -286.2,
+      "vsPoc": -617.9,
+      "vsVah": -1096.9,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": 810.7,
+      "delta": "−8K",
+      "window": "9:00–9:25",
+      "volume": "154K"
+    },
+    "setup": {
+      "tag": "LONG · VAL RECLAIM",
+      "trigger": "WAIT for VVAL reclaim — 5m wick through / close and hold back above 78,279.8. Skip first 10–15 min unless reclaim already printed. Do not chase bounce mid-impulse below VAL.",
+      "entry": "78,285–78,320",
+      "stop": "78,180",
+      "t1": "78,611.5",
+      "t2": "79,090.5",
+      "t3": null
+    },
+    "invalidation": "5m close back below 78,180. Soft veto until HTF read if 1h accepting lower.",
+    "doNotTradeIf": "Chasing the bounce from ~78000 while still mid-impulse below VAL. No LONG without a printed 5m reclaim hold.",
+    "notes": "Planned R:R ≈ 1:2.6 from mid-entry (~78302) to T1 POC vs stop 78180. Analysis, not financial advice."
+  },
+  "fx": {
+    "date": "2026-09-10",
+    "when": "Thu Sep 10 · ~7:52am ET",
+    "title": "FX shorts",
+    "subtitle": "AM forex · NY window 9:30–10:15",
+    "bias": "NO TRADE",
+    "countPass": 0,
+    "countTotal": 11,
+    "trades": [],
+    "skipped": [
+      "CADCHF",
+      "AUDUSD",
+      "EURUSD",
+      "CADJPY",
+      "USDCHF",
+      "USDCAD",
+      "USDJPY",
+      "AUDCAD",
+      "NZDUSD",
+      "GBPUSD",
+      "EURCAD"
+    ],
+    "emptySummary": "CADCHF near highs with no bearish signal. All others fail EMA stack.",
+    "emptyWatch": "CADCHF reject near highs",
+    "emptyChartUrl": null,
+    "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
+  }
+}
