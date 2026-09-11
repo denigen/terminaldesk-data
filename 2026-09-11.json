@@ -3,7 +3,7 @@
   "date": "2026-09-11",
   "sample": false,
   "label": "Fri Sep 11 \u2014 live brief",
-  "refreshedAt": "2026-09-11T11:49:52Z",
+  "refreshedAt": "2026-09-11T11:56:11Z",
   "btc": {
     "date": "2026-09-11",
     "when": "Fri Sep 11 \u00b7 ~7:48am ET",
@@ -47,17 +47,29 @@
   },
   "fx": {
     "date": "2026-09-11",
-    "when": "Fri Sep 11 \u00b7 pending",
+    "when": "Fri Sep 11 \u00b7 ~7:55am ET",
     "title": "FX shorts",
     "subtitle": "AM forex \u00b7 NY window 9:30\u201310:15",
-    "bias": "PENDING",
+    "bias": "NO TRADE",
     "countPass": 0,
-    "countTotal": 0,
+    "countTotal": 11,
     "trades": [],
-    "skipped": [],
-    "emptySummary": "FX scan not in yet.",
-    "emptyWatch": null,
-    "emptyChartUrl": null,
-    "filterNote": "Awaiting tradorr FX short scan."
+    "skipped": [
+      "AUDCAD",
+      "AUDUSD",
+      "CADCHF",
+      "CADJPY",
+      "EURCAD",
+      "EURUSD",
+      "GBPUSD",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY"
+    ],
+    "emptySummary": "AUDCAD and CADCHF above EMAs but bullish with no rejection. USDCHF near resistance with no bearish signal. Everyone else fails EMA stack.",
+    "emptyWatch": "AUDCAD / CADCHF / USDCHF near levels, no bearish signal",
+    "emptyChartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/fx-watchlist-2026-09-11.jpg",
+    "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
   }
 }
