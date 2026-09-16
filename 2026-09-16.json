@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "date": "2026-09-16",
   "sample": false,
-  "label": "Wed Sep 16 — live brief",
-  "refreshedAt": "2026-09-16T12:11:39Z",
+  "label": "Wed Sep 16 \u2014 live brief + pnl kickoff",
+  "refreshedAt": "2026-09-16T17:44:51Z",
   "btc": {
     "date": "2026-09-16",
-    "when": "Wed Sep 16 · ~7:46am ET",
+    "when": "Wed Sep 16 \u00b7 ~7:46am ET",
     "symbol": "BTC / USD",
     "last": 76170.0,
     "bias": "WAIT",
     "quality": "C",
-    "banner": "Last inside prior NY value (below POC, above VAL). WAIT / NO TRADE — SMC gate FAIL. HTF unread · mid-value stand down.",
+    "banner": "Last inside prior NY value (below POC, above VAL). WAIT / NO TRADE \u2014 SMC gate FAIL. HTF unread \u00b7 mid-value stand down.",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-16.jpg",
-    "chartLabel": "Chart · NY VPSV · 5M",
+    "chartLabel": "Chart \u00b7 NY VPSV \u00b7 5M",
     "levels": {
       "onh": null,
       "onl": null,
@@ -28,12 +28,12 @@
       "vsOnh": null,
       "vsOnl": null,
       "vaWidth": 948.6,
-      "delta": "−16K",
-      "window": "9:00–9:25",
+      "delta": "\u221216K",
+      "window": "9:00\u20139:25",
       "volume": "349K"
     },
     "setup": {
-      "tag": "WAIT · NO SETUP",
+      "tag": "WAIT \u00b7 NO SETUP",
       "trigger": "Stand down mid prior NY value (below POC, above VAL). SMC gate FAIL; HTF unread. No entry.",
       "entry": "none",
       "stop": "none",
@@ -42,14 +42,14 @@
       "t3": null
     },
     "invalidation": "Flat until labeled ONH/ONL or clean value edge reclaim/reject with real T1 and SMC gate pass.",
-    "doNotTradeIf": "Fading mid-value. Inventing overnight levels. Any setup that cannot clear R:R ≥ 1:2.5 without inventing T1/ONH.",
-    "notes": "ONH/ONL unread. HTF unread. Vol 349K / delta −16K. Analysis, not financial advice."
+    "doNotTradeIf": "Fading mid-value. Inventing overnight levels. Any setup that cannot clear R:R \u2265 1:2.5 without inventing T1/ONH.",
+    "notes": "ONH/ONL unread. HTF unread. Vol 349K / delta \u221216K. Analysis, not financial advice."
   },
   "fx": {
     "date": "2026-09-16",
-    "when": "Wed Sep 16 · ~8:10am ET",
+    "when": "Wed Sep 16 \u00b7 ~8:10am ET",
     "title": "FX shorts",
-    "subtitle": "AM forex · NY window 9:30–10:15",
+    "subtitle": "AM forex \u00b7 NY window 9:30\u201310:15",
     "bias": "NO TRADE",
     "countPass": 0,
     "countTotal": 11,
@@ -67,9 +67,17 @@
       "USDCHF",
       "USDJPY"
     ],
-    "emptySummary": "USDCHF near-miss above EMAs near ~0.8199–0.8207 but still rising with no rejection; everyone else fails EMA stack. No A-setup.",
+    "emptySummary": "USDCHF near-miss above EMAs near ~0.8199\u20130.8207 but still rising with no rejection; everyone else fails EMA stack. No A-setup.",
     "emptyWatch": "USDCHF near EMAs / rising, no rejection",
     "emptyChartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/fx-watchlist-2026-09-16.jpg",
     "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
+  },
+  "pnl": {
+    "today_r": 0,
+    "week_r": 0,
+    "hit_rate": null,
+    "open_count": 0,
+    "recent": [],
+    "updated": "2026-09-16T13:44:51-04:00"
   }
 }
