@@ -3,7 +3,7 @@
   "date": "2026-09-16",
   "sample": false,
   "label": "Wed Sep 16 — live brief",
-  "refreshedAt": "2026-09-16T11:49:25Z",
+  "refreshedAt": "2026-09-16T12:11:39Z",
   "btc": {
     "date": "2026-09-16",
     "when": "Wed Sep 16 · ~7:46am ET",
@@ -47,7 +47,7 @@
   },
   "fx": {
     "date": "2026-09-16",
-    "when": "Wed Sep 16 · pending",
+    "when": "Wed Sep 16 · ~8:10am ET",
     "title": "FX shorts",
     "subtitle": "AM forex · NY window 9:30–10:15",
     "bias": "NO TRADE",
@@ -67,9 +67,9 @@
       "USDCHF",
       "USDJPY"
     ],
-    "emptySummary": "FX pending — awaiting AM forex screen.",
-    "emptyWatch": "Pending FX brief",
-    "emptyChartUrl": null,
+    "emptySummary": "USDCHF near-miss above EMAs near ~0.8199–0.8207 but still rising with no rejection; everyone else fails EMA stack. No A-setup.",
+    "emptyWatch": "USDCHF near EMAs / rising, no rejection",
+    "emptyChartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/fx-watchlist-2026-09-16.jpg",
     "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
   }
 }
