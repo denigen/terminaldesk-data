@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-16",
+  "sample": false,
+  "label": "Wed Sep 16 — live brief",
+  "refreshedAt": "2026-09-16T11:49:25Z",
+  "btc": {
+    "date": "2026-09-16",
+    "when": "Wed Sep 16 · ~7:46am ET",
+    "symbol": "BTC / USD",
+    "last": 76170.0,
+    "bias": "WAIT",
+    "quality": "C",
+    "banner": "Last inside prior NY value (below POC, above VAL). WAIT / NO TRADE — SMC gate FAIL. HTF unread · mid-value stand down.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-16.jpg",
+    "chartLabel": "Chart · NY VPSV · 5M",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": 76646.8,
+      "poc": 76383.3,
+      "val": 75698.2
+    },
+    "context": {
+      "vsVal": 471.8,
+      "vsPoc": -213.3,
+      "vsVah": -476.8,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": 948.6,
+      "delta": "−16K",
+      "window": "9:00–9:25",
+      "volume": "349K"
+    },
+    "setup": {
+      "tag": "WAIT · NO SETUP",
+      "trigger": "Stand down mid prior NY value (below POC, above VAL). SMC gate FAIL; HTF unread. No entry.",
+      "entry": "none",
+      "stop": "none",
+      "t1": null,
+      "t2": null,
+      "t3": null
+    },
+    "invalidation": "Flat until labeled ONH/ONL or clean value edge reclaim/reject with real T1 and SMC gate pass.",
+    "doNotTradeIf": "Fading mid-value. Inventing overnight levels. Any setup that cannot clear R:R ≥ 1:2.5 without inventing T1/ONH.",
+    "notes": "ONH/ONL unread. HTF unread. Vol 349K / delta −16K. Analysis, not financial advice."
+  },
+  "fx": {
+    "date": "2026-09-16",
+    "when": "Wed Sep 16 · pending",
+    "title": "FX shorts",
+    "subtitle": "AM forex · NY window 9:30–10:15",
+    "bias": "NO TRADE",
+    "countPass": 0,
+    "countTotal": 11,
+    "trades": [],
+    "skipped": [
+      "AUDCAD",
+      "AUDUSD",
+      "CADCHF",
+      "CADJPY",
+      "EURCAD",
+      "EURUSD",
+      "GBPUSD",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY"
+    ],
+    "emptySummary": "FX pending — awaiting AM forex screen.",
+    "emptyWatch": "Pending FX brief",
+    "emptyChartUrl": null,
+    "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
+  }
+}
