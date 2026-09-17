@@ -3,7 +3,7 @@
   "date": "2026-09-17",
   "sample": false,
   "label": "Thu Sep 17 \u2014 live brief (BTC + HYPE + FX)",
-  "refreshedAt": "2026-09-17T12:48:00Z",
+  "refreshedAt": "2026-09-17T12:48:18Z",
   "btc": {
     "date": "2026-09-17",
     "when": "Thu Sep 17 \u00b7 ~7:42am ET",
@@ -110,14 +110,14 @@
   },
   "hype": {
     "date": "2026-09-17",
-    "when": "Thu Sep 17 \u00b7 ~7:40am ET",
+    "when": "Thu Sep 17 \u00b7 ~8:38am ET",
     "symbol": "HYPE / USD",
     "last": 80.478,
     "bias": "WAIT",
     "quality": "B",
-    "banner": "Last 80.478 above prior NY value (~0.90 over VAH 79.573). WAIT \u2014 conditional LONG on VAH pullback hold. Do not chase.",
+    "banner": "Last 80.4780 above prior NY value (+0.90 over VAH). WAIT \u2014 conditional LONG on Prior-NY VAH pullback hold. 15m/1h accepting higher (shorts vetoed).",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-17.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M",
+    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
     "levels": {
       "onh": null,
       "onl": null,
@@ -138,15 +138,15 @@
     },
     "setup": {
       "tag": "WAIT \u00b7 VAH PULLBACK LONG",
-      "trigger": "Wait for pullback into prior-NY VAH 79.50\u201379.60 and hold. No chase from 80.48. 15m/1h accepting higher.",
+      "trigger": "5m wick into prior NY VAH ~79.57 then close holds / reclaims above VAH. Skip first 10\u201315 min unless trigger already printed. Do not chase ~80.5 mid-impulse.",
       "entry": "79.50\u201379.60",
       "stop": "79.00",
       "t1": "80.95",
       "t2": "81.20",
       "t3": "81.80"
     },
-    "invalidation": "Loss of 79.00 on a 5m close or failure to hold VAH on the pullback.",
-    "doNotTradeIf": "Chasing extension above VAH. Entering without a VAH hold. Any setup that cannot clear R:R \u2265 1:2.5.",
-    "notes": "ONH/ONL unread. Official routine Thu Sep 17 \u2014 supersedes earlier draft stop/T1. Planned R:R ~1:2.55 to T1. Analysis, not financial advice."
+    "invalidation": "5m close below 79.00, or acceptance back inside prior NY value. Planned R:R mid \u2248 1:2.55 to T1.",
+    "doNotTradeIf": "Chasing last above ~80.20 with no pullback to VAH. Shorting into higher HTF. Mid-impulse continuation with no edge.",
+    "notes": "Official routine card. Soft-SMC: VA-edge hold without overnight tag allowed. ONH/ONL unread. Vol/Delta unread. Analysis, not financial advice."
   }
 }
