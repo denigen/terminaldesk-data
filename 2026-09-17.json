@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-17",
   "sample": false,
-  "label": "Thu Sep 17 \u2014 live brief",
-  "refreshedAt": "2026-09-17T11:51:10Z",
+  "label": "Thu Sep 17 \u2014 live brief (BTC + HYPE + FX)",
+  "refreshedAt": "2026-09-17T12:48:00Z",
   "btc": {
     "date": "2026-09-17",
     "when": "Thu Sep 17 \u00b7 ~7:42am ET",
@@ -13,7 +13,7 @@
     "quality": "C",
     "banner": "Last 76,175.6 above prior NY value (~174 over VAH). SHORT conditional \u2014 VAH rejection / fail back into value. Wait for 5m fail below 76,002.",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-17.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
+    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M",
     "levels": {
       "onh": null,
       "onl": null,
@@ -107,5 +107,46 @@
     ],
     "updated": "2026-09-17T08:38:00-04:00",
     "note": "open BTC VAH short + HYPE VAH long (official stop 79.00 T1 80.95) until 12:00 settle"
+  },
+  "hype": {
+    "date": "2026-09-17",
+    "when": "Thu Sep 17 \u00b7 ~7:40am ET",
+    "symbol": "HYPE / USD",
+    "last": 80.478,
+    "bias": "WAIT",
+    "quality": "B",
+    "banner": "Last 80.478 above prior NY value (~0.90 over VAH 79.573). WAIT \u2014 conditional LONG on VAH pullback hold. Do not chase.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-17.jpg",
+    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": 79.5734,
+      "poc": 78.7963,
+      "val": 77.8778
+    },
+    "context": {
+      "vsVal": 2.6002,
+      "vsPoc": 1.6817,
+      "vsVah": 0.9046,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": 1.6956,
+      "delta": null,
+      "window": "9:00\u20139:45",
+      "volume": null
+    },
+    "setup": {
+      "tag": "WAIT \u00b7 VAH PULLBACK LONG",
+      "trigger": "Wait for pullback into prior-NY VAH 79.50\u201379.60 and hold. No chase from 80.48. 15m/1h accepting higher.",
+      "entry": "79.50\u201379.60",
+      "stop": "79.00",
+      "t1": "80.95",
+      "t2": "81.20",
+      "t3": "81.80"
+    },
+    "invalidation": "Loss of 79.00 on a 5m close or failure to hold VAH on the pullback.",
+    "doNotTradeIf": "Chasing extension above VAH. Entering without a VAH hold. Any setup that cannot clear R:R \u2265 1:2.5.",
+    "notes": "ONH/ONL unread. Official routine Thu Sep 17 \u2014 supersedes earlier draft stop/T1. Planned R:R ~1:2.55 to T1. Analysis, not financial advice."
   }
 }
