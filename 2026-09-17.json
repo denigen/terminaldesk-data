@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "date": "2026-09-17",
   "sample": false,
-  "label": "Thu Sep 17 \u2014 live brief (BTC + HYPE + FX)",
-  "refreshedAt": "2026-09-17T12:48:18Z",
+  "label": "Thu Sep 17 — live brief (BTC + HYPE + FX) · P&L settled",
+  "refreshedAt": "2026-09-17T15:27:34Z",
   "btc": {
     "date": "2026-09-17",
-    "when": "Thu Sep 17 \u00b7 ~7:42am ET",
+    "when": "Thu Sep 17 · ~7:42am ET",
     "symbol": "BTC / USD",
     "last": 76175.6,
     "bias": "SHORT",
     "quality": "C",
-    "banner": "Last 76,175.6 above prior NY value (~174 over VAH). SHORT conditional \u2014 VAH rejection / fail back into value. Wait for 5m fail below 76,002.",
+    "banner": "Last 76,175.6 above prior NY value (~174 over VAH). SHORT conditional — VAH rejection / fail back into value. Wait for 5m fail below 76,002.",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-17.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M",
+    "chartLabel": "Chart · Prior NY VPSV · 5M",
     "levels": {
       "onh": null,
       "onl": null,
@@ -29,27 +29,27 @@
       "vsOnl": null,
       "vaWidth": 582.4,
       "delta": null,
-      "window": "9:00\u201310:30",
+      "window": "9:00–10:30",
       "volume": null
     },
     "setup": {
-      "tag": "SHORT \u00b7 VAH REJECTION",
-      "trigger": "5m wick into or just above VAH then close back below 76,002. Skip first 10\u201315 min unless fail already printed. No chase from 76,175.",
-      "entry": "75,980\u201376,020",
+      "tag": "SHORT · VAH REJECTION",
+      "trigger": "5m wick into or just above VAH then close back below 76,002. Skip first 10–15 min unless fail already printed. No chase from 76,175.",
+      "entry": "75,980–76,020",
       "stop": "76,130",
       "t1": "75,674",
       "t2": "75,420",
       "t3": null
     },
-    "invalidation": "5m acceptance back above 76,130 or strong hold above VAH without a fail. Planned R:R mid \u2248 1:2.5.",
-    "doNotTradeIf": "Chasing from 76,175. Inventing overnight levels. Any setup that cannot clear R:R \u2265 1:2.5.",
+    "invalidation": "5m acceptance back above 76,130 or strong hold above VAH without a fail. Planned R:R mid ≈ 1:2.5.",
+    "doNotTradeIf": "Chasing from 76,175. Inventing overnight levels. Any setup that cannot clear R:R ≥ 1:2.5.",
     "notes": "ONH/ONL unread. HTF unread. Quality C conditional. Analysis, not financial advice."
   },
   "fx": {
     "date": "2026-09-17",
-    "when": "Thu Sep 17 \u00b7 ~7:49am ET",
+    "when": "Thu Sep 17 · ~7:49am ET",
     "title": "FX shorts",
-    "subtitle": "AM forex \u00b7 NY window 9:30\u201310:15",
+    "subtitle": "AM forex · NY window 9:30–10:15",
     "bias": "NO TRADE",
     "countPass": 0,
     "countTotal": 11,
@@ -73,10 +73,10 @@
     "filterNote": "Filter: short, above 6/14/25/80/200, into resistance, bearish print. No OBs invented. Analysis, not advice."
   },
   "pnl": {
-    "today_r": 0,
-    "week_r": 0,
-    "hit_rate": null,
-    "open_count": 2,
+    "today_r": -1.0,
+    "week_r": -1.0,
+    "hit_rate": 0.0,
+    "open_count": 0,
     "recent": [
       {
         "date": "2026-09-17",
@@ -87,9 +87,9 @@
         "stop": 76130,
         "t1": 75674,
         "planned_rr": 2.5,
-        "status": "open",
-        "realized_r": null,
-        "notes": "Quality C; HTF/ON unread; wait for 5m fail below VAH 76002; no chase from 76175"
+        "status": "stopped",
+        "realized_r": -1.0,
+        "notes": "Entry zone tagged (NY low 76001 ~09:35 ET). Stop 76130 hit after entry; T1 75674 never printed. Session H/L 76912/76001 on Hyperliquid 5M. Settle chart: settle-2026-09-17/btc-5m-ny.png"
       },
       {
         "date": "2026-09-17",
@@ -100,24 +100,24 @@
         "stop": 79.0,
         "t1": 80.95,
         "planned_rr": 2.55,
-        "status": "open",
+        "status": "no_trigger",
         "realized_r": null,
-        "notes": "Official routine card; wait VAH pullback; Quality B; supersedes earlier draft stop/T1"
+        "notes": "No pullback into 79.50–79.60 after brief (post-brief low 80.1890). T1 80.95 later exceeded without entry. Session since ~08:30 H/L 83.3520/80.1890. Settle chart: settle-2026-09-17/hype-5m-ny.png"
       }
     ],
-    "updated": "2026-09-17T08:38:00-04:00",
-    "note": "open BTC VAH short + HYPE VAH long (official stop 79.00 T1 80.95) until 12:00 settle"
+    "updated": "2026-09-17T11:25:00-04:00",
+    "note": "Thu settle (COO early): BTC stopped -1R; HYPE no_trigger"
   },
   "hype": {
     "date": "2026-09-17",
-    "when": "Thu Sep 17 \u00b7 ~8:38am ET",
+    "when": "Thu Sep 17 · ~8:38am ET",
     "symbol": "HYPE / USD",
     "last": 80.478,
     "bias": "WAIT",
     "quality": "B",
-    "banner": "Last 80.4780 above prior NY value (+0.90 over VAH). WAIT \u2014 conditional LONG on Prior-NY VAH pullback hold. 15m/1h accepting higher (shorts vetoed).",
+    "banner": "Last 80.4780 above prior NY value (+0.90 over VAH). WAIT — conditional LONG on Prior-NY VAH pullback hold. 15m/1h accepting higher (shorts vetoed).",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-17.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
+    "chartLabel": "Chart · Prior NY VPSV · 5M Hyperliquid",
     "levels": {
       "onh": null,
       "onl": null,
@@ -133,19 +133,19 @@
       "vsOnl": null,
       "vaWidth": 1.6956,
       "delta": null,
-      "window": "9:00\u20139:45",
+      "window": "9:00–9:45",
       "volume": null
     },
     "setup": {
-      "tag": "WAIT \u00b7 VAH PULLBACK LONG",
-      "trigger": "5m wick into prior NY VAH ~79.57 then close holds / reclaims above VAH. Skip first 10\u201315 min unless trigger already printed. Do not chase ~80.5 mid-impulse.",
-      "entry": "79.50\u201379.60",
+      "tag": "WAIT · VAH PULLBACK LONG",
+      "trigger": "5m wick into prior NY VAH ~79.57 then close holds / reclaims above VAH. Skip first 10–15 min unless trigger already printed. Do not chase ~80.5 mid-impulse.",
+      "entry": "79.50–79.60",
       "stop": "79.00",
       "t1": "80.95",
       "t2": "81.20",
       "t3": "81.80"
     },
-    "invalidation": "5m close below 79.00, or acceptance back inside prior NY value. Planned R:R mid \u2248 1:2.55 to T1.",
+    "invalidation": "5m close below 79.00, or acceptance back inside prior NY value. Planned R:R mid ≈ 1:2.55 to T1.",
     "doNotTradeIf": "Chasing last above ~80.20 with no pullback to VAH. Shorting into higher HTF. Mid-impulse continuation with no edge.",
     "notes": "Official routine card. Soft-SMC: VA-edge hold without overnight tag allowed. ONH/ONL unread. Vol/Delta unread. Analysis, not financial advice."
   }
