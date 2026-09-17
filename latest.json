@@ -76,7 +76,7 @@
     "today_r": 0,
     "week_r": 0,
     "hit_rate": null,
-    "open_count": 1,
+    "open_count": 2,
     "recent": [
       {
         "date": "2026-09-17",
@@ -90,9 +90,22 @@
         "status": "open",
         "realized_r": null,
         "notes": "Quality C; HTF/ON unread; wait for 5m fail below VAH 76002; no chase from 76175"
+      },
+      {
+        "date": "2026-09-17",
+        "asset": "HYPE",
+        "setup": "Prior-NY VAH pullback hold",
+        "bias": "long",
+        "entry_mid": 79.55,
+        "stop": 79.0,
+        "t1": 80.95,
+        "planned_rr": 2.55,
+        "status": "open",
+        "realized_r": null,
+        "notes": "Official routine card; wait VAH pullback; Quality B; supersedes earlier draft stop/T1"
       }
     ],
-    "updated": "2026-09-17T07:42:00-04:00",
-    "note": "open BTC VAH rejection until 12:00 settle"
+    "updated": "2026-09-17T08:38:00-04:00",
+    "note": "open BTC VAH short + HYPE VAH long (official stop 79.00 T1 80.95) until 12:00 settle"
   }
 }
