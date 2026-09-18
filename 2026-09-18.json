@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-18",
   "sample": false,
-  "label": "Fri Sep 18 \u2014 BTC Asia WAIT + live NY briefs",
-  "refreshedAt": "2026-09-18T23:14:06Z",
+  "label": "Fri Sep 18 \u2014 BTC+HYPE Asia WAIT + live NY briefs",
+  "refreshedAt": "2026-09-18T23:28:30Z",
   "btc": {
     "date": "2026-09-18",
     "when": "Fri Sep 18 \u00b7 ~7:00pm ET \u00b7 Asia",
@@ -63,45 +63,45 @@
   },
   "hype": {
     "date": "2026-09-18",
-    "when": "Fri Sep 18 \u00b7 ~8:35am ET",
+    "when": "Fri Sep 18 \u00b7 ~7:15pm ET \u00b7 Asia",
     "symbol": "HYPE / USD",
-    "last": 90.637,
+    "last": 92.918,
     "bias": "WAIT",
     "quality": "B",
-    "banner": "Last ~90.64 well above prior NY value (~7.88 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. 1h accepting higher vetoes VA-edge shorts.",
-    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-18.jpg",
+    "banner": "Last 92.9180 above prior NY value (~0.98 over VAH). WAIT \u2014 no edge. Shorts vetoed (1h impulse); longs not vetoed but extended. No Asia profile drawn.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-asia-2026-09-18.jpg",
     "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
     "levels": {
       "onh": null,
       "onl": null,
-      "vah": 82.7572,
-      "poc": 82.1449,
-      "val": 81.721
+      "vah": 91.9372,
+      "poc": 91.2599,
+      "val": 90.791
     },
     "context": {
-      "vsVal": 8.916,
-      "vsPoc": 8.4921,
-      "vsVah": 7.8798,
+      "vsVal": 2.127,
+      "vsPoc": 1.6581,
+      "vsVah": 0.9808,
       "vsOnh": null,
       "vsOnl": null,
-      "vaWidth": 1.0362,
-      "delta": null,
-      "window": "NY open",
-      "volume": null
+      "vaWidth": 1.1462,
+      "delta": -71000,
+      "window": "Asia 7:15\u20139:00pm ET",
+      "volume": 10000000
     },
     "setup": {
-      "tag": "WAIT / conditional prior-NY VAH pullback hold LONG",
-      "trigger": "5m wick into VAH ~82.7572 then close holds above. No chase from ~90.64. Shorts at VA edge vetoed while 1h accepting higher.",
-      "entry": "82.70-82.80",
-      "stop": "82.14",
-      "t1": "90.64",
+      "tag": "WAIT \u00b7 ABOVE VALUE \u00b7 NO EDGE",
+      "trigger": "No published setup. Only if a real VA-edge hold/fail prints in 7:15\u20139:00pm ET with R:R \u2265 1:2.5 to a labeled level. Do not chase 92.92 above VAH or fade the 1h impulse with a VAH-fail short.",
+      "entry": "none",
+      "stop": "none",
+      "t1": null,
       "t2": null,
       "t3": null
     },
-    "invalidation": "stop 82.14 (beneath VPOC)",
-    "doNotTradeIf": "Chasing from ~90.64. Shorting VA edge while 1h accepting higher. Mid-value with no edge.",
-    "notes": "Quality B. Planned R:R mid about 1:12.9. 15m/1h accepting higher. SMC none labeled. Analysis only.",
-    "session": "ny"
+    "invalidation": "n/a \u2014 WAIT / no published setup. Planned R:R n/a.",
+    "doNotTradeIf": "Chasing 92.92 above VAH. Fading the 1h impulse with a VAH-fail short. Any VAH pullback long that needs an invented T1 above ~93.7 or stretches the stop under 1:2.5 to the recent ~92.95 high.",
+    "notes": "Levels from logged-in app.mmt.gg Hyperliquid 5M: prior NY VAH 91.9372 / POC 91.2599 / VAL 90.7910. Last 92.9180 above value. No Asia session profile drawn. ONH/ONL unread. Vol 10M / Delta \u221271K. Analysis only, not financial advice.",
+    "session": "asia"
   },
   "gold": {
     "date": "2026-09-18",
@@ -206,7 +206,7 @@
         "notes": "Post-brief Hyperliquid 5M low 90.3870 / high 92.7370 (through ~13:05 ET). Entry 82.70\u201382.80 never tagged (low ~7.59 above zone). Brief already ~90.64; later dip through 90.64 without entry. Settle: settle-2026-09-18/hype-5m-ny.png"
       }
     ],
-    "updated": "2026-09-18T13:06:00-04:00",
-    "note": "Fri noon settle: BTC + HYPE NY VAH pullback longs both no_trigger (no pullback to entry). No Asia rows (Asia briefs never ran). Prior Thu BTC still \u22121.0R."
+    "updated": "2026-09-18T19:15:00-04:00",
+    "note": "Fri noon settle: BTC + HYPE NY VAH pullback longs both no_trigger. Asia evening BTC/HYPE WAIT (no setup rows). Prior Thu BTC still \u22121.0R."
   }
 }
