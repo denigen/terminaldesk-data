@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-18",
   "sample": false,
-  "label": "Fri Sep 18 \u2014 live brief",
-  "refreshedAt": "2026-09-18T13:03:48Z",
+  "label": "Fri Sep 18 \u2014 pnl settled ~1:06pm ET",
+  "refreshedAt": "2026-09-18T13:06:00-04:00",
   "btc": {
     "date": "2026-09-18",
     "when": "Fri Sep 18 \u00b7 ~7:55am ET",
@@ -146,10 +146,10 @@
     "notes": "Quality B. 5m high 4399.670 low 4334.295. EMA 6/14/25/80/200 labeled. SMC none labeled. Source: GOLD-NY-OPEN-BRIEFING-2026-09-18.md. chartUrl pending R2 (secrets missing on box)."
   },
   "pnl": {
-    "today_r": -1.0,
+    "today_r": 0.0,
     "week_r": -1.0,
     "hit_rate": 0.0,
-    "open_count": 2,
+    "open_count": 0,
     "recent": [
       {
         "date": "2026-09-17",
@@ -187,9 +187,9 @@
         "stop": 76750,
         "t1": 78080,
         "planned_rr": 7.9,
-        "status": "open",
+        "status": "no_trigger",
         "realized_r": null,
-        "notes": "Official card; wait VAH pullback; do not chase 78084; 1h higher; Hyperliquid; Quality B"
+        "notes": "Post-brief Hyperliquid 5M low 78000 / high 81292 (through ~12:57 ET). Entry 76880\u201376920 never tagged (low ~1080 above zone). Brief already ~78084; later run through T1 without entry. Settle: settle-2026-09-18/btc-5m-ny.png"
       },
       {
         "date": "2026-09-18",
@@ -201,12 +201,12 @@
         "stop": 82.14,
         "t1": 90.64,
         "planned_rr": 12.9,
-        "status": "open",
+        "status": "no_trigger",
         "realized_r": null,
-        "notes": "Official card; WAIT VAH pullback; 15m/1h accepting higher; Quality B; do not chase 90.64; Hyperliquid"
+        "notes": "Post-brief Hyperliquid 5M low 90.3870 / high 92.7370 (through ~13:05 ET). Entry 82.70\u201382.80 never tagged (low ~7.59 above zone). Brief already ~90.64; later dip through 90.64 without entry. Settle: settle-2026-09-18/hype-5m-ny.png"
       }
     ],
-    "updated": "2026-09-18T08:35:00-04:00",
-    "note": "Fri open: BTC + HYPE VAH pullback longs open. Today R still yesterday settle until noon."
+    "updated": "2026-09-18T13:06:00-04:00",
+    "note": "Fri noon settle: BTC + HYPE NY VAH pullback longs both no_trigger (no pullback to entry). No Asia rows (Asia briefs never ran). Prior Thu BTC still \u22121.0R."
   }
 }
