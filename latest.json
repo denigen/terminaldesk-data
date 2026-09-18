@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-18",
   "sample": false,
-  "label": "Fri Sep 18 \u2014 BTC+HYPE Asia WAIT + live NY briefs",
-  "refreshedAt": "2026-09-18T23:28:30Z",
+  "label": "Fri Sep 18 \u2014 BTC+HYPE+GOLD Asia WAIT + live NY briefs",
+  "refreshedAt": "2026-09-18T23:43:29Z",
   "btc": {
     "date": "2026-09-18",
     "when": "Fri Sep 18 \u00b7 ~7:00pm ET \u00b7 Asia",
@@ -105,14 +105,14 @@
   },
   "gold": {
     "date": "2026-09-18",
-    "when": "Fri Sep 18 \u00b7 ~8:57am ET",
+    "when": "Fri Sep 18 \u00b7 ~7:30pm ET \u00b7 Asia",
     "symbol": "XAU / USD",
-    "last": 4367.97,
+    "last": 4378.385,
     "bias": "WAIT",
     "quality": "B",
-    "session": "ny",
-    "banner": "Last ~4,368 mid-range after overnight high 4,399.67 and wick low 4,334.30. WAIT \u2014 bounce stalled at EMA 6/200 under 14/25/80. 1h not accepting higher vetoes chase longs. No R:R \u2265 1:2.5 short vs daily above EMA 200.",
-    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/gold-2026-09-18.png",
+    "session": "asia",
+    "banner": "Market closed (last update ~4:59pm ET). Mid short-EMA stack \u2014 no edge. WAIT. Chart left on 5m Friday print; not live Asia.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/gold-asia-2026-09-18.jpg",
     "chartLabel": "Chart \u00b7 XAUUSD OANDA \u00b7 5M",
     "levels": {
       "onh": null,
@@ -129,21 +129,21 @@
       "vsOnl": null,
       "vaWidth": null,
       "delta": null,
-      "window": "9:00\u20139:30am ET",
+      "window": "Asia 7:30\u20139:30pm ET",
       "volume": null
     },
     "setup": {
-      "tag": "WAIT / mid-range pullback \u2014 no edge",
-      "trigger": "No A-setup. Bounce stalled at EMA 6/200. Longs need 1h accept higher. Shorts lack R:R \u2265 1:2.5 vs daily above EMA 200.",
-      "entry": null,
-      "stop": null,
+      "tag": "WAIT / NO SETUP",
+      "trigger": "No published setup \u2014 mid short-EMA stack, no edge. Only if a labeled edge prints in 7:30\u20139:30pm ET with R:R \u2265 1:2.5 and 1h does not veto.",
+      "entry": "none",
+      "stop": "none",
       "t1": null,
       "t2": null,
       "t3": null
     },
-    "invalidation": "Trade call without R:R \u2265 1:2.5 or against 1h veto (LH under EMA 6/14).",
-    "doNotTradeIf": "Chase bounce into EMA 14/25/80. Short daily above EMA 200 without edge. Invent OB/FVG. Stretch stop under 4334.295 to force a long.",
-    "notes": "Quality B. 5m high 4399.670 low 4334.295. EMA 6/14/25/80/200 labeled. SMC none labeled. Source: GOLD-NY-OPEN-BRIEFING-2026-09-18.md. chartUrl pending R2 (secrets missing on box)."
+    "invalidation": "n/a \u2014 WAIT / no published setup. Planned R:R n/a.",
+    "doNotTradeIf": "Chasing longs under EMA 6/14/25 (~4,379\u20134,381) with no pullback edge. Shorting while 1h holds above its EMA stack. Stretching a stop under 4,334.295 or inventing T1 past 4,399.670 just to force R:R. Trading the closed Friday print as if Asia is live.",
+    "notes": "XAUUSD OANDA \u00b7 last 4,378.385. Session High 4,399.670 \u00b7 Low 4,334.295. EMA 6 4,379.293 \u00b7 14 4,380.052 \u00b7 25 4,380.775 \u00b7 80 4,378.210 \u00b7 separate 4,372.601. SMC none labeled. Market closed (~4:59pm ET). VAH/POC/VAL/ONH/ONL unread. Source: GOLD-ASIA-BRIEFING-2026-09-18.md. chartUrl pending R2 (secrets missing on box). Analysis only \u2014 not financial advice."
   },
   "pnl": {
     "today_r": 0.0,
@@ -207,6 +207,6 @@
       }
     ],
     "updated": "2026-09-18T19:15:00-04:00",
-    "note": "Fri noon settle: BTC + HYPE NY VAH pullback longs both no_trigger. Asia evening BTC/HYPE WAIT (no setup rows). Prior Thu BTC still \u22121.0R."
+    "note": "Fri noon settle: BTC + HYPE NY VAH pullback longs both no_trigger. Asia evening BTC/HYPE/GOLD WAIT (no setup rows). Prior Thu BTC still \u22121.0R."
   }
 }
