@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-18",
   "sample": false,
-  "label": "Fri Sep 18 \u2014 live brief (BTC + HYPE)",
-  "refreshedAt": "2026-09-18T12:39:39Z",
+  "label": "Fri Sep 18 \u2014 live brief",
+  "refreshedAt": "2026-09-18T13:03:48Z",
   "btc": {
     "date": "2026-09-18",
     "when": "Fri Sep 18 \u00b7 ~7:55am ET",
@@ -60,6 +60,90 @@
     "emptyWatch": null,
     "emptyChartUrl": null,
     "filterNote": "No new scan while FX tab is hidden."
+  },
+  "hype": {
+    "date": "2026-09-18",
+    "when": "Fri Sep 18 \u00b7 ~8:35am ET",
+    "symbol": "HYPE / USD",
+    "last": 90.637,
+    "bias": "WAIT",
+    "quality": "B",
+    "banner": "Last ~90.64 well above prior NY value (~7.88 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. 1h accepting higher vetoes VA-edge shorts.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-18.jpg",
+    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": 82.7572,
+      "poc": 82.1449,
+      "val": 81.721
+    },
+    "context": {
+      "vsVal": 8.916,
+      "vsPoc": 8.4921,
+      "vsVah": 7.8798,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": 1.0362,
+      "delta": null,
+      "window": "NY open",
+      "volume": null
+    },
+    "setup": {
+      "tag": "WAIT / conditional prior-NY VAH pullback hold LONG",
+      "trigger": "5m wick into VAH ~82.7572 then close holds above. No chase from ~90.64. Shorts at VA edge vetoed while 1h accepting higher.",
+      "entry": "82.70-82.80",
+      "stop": "82.14",
+      "t1": "90.64",
+      "t2": null,
+      "t3": null
+    },
+    "invalidation": "stop 82.14 (beneath VPOC)",
+    "doNotTradeIf": "Chasing from ~90.64. Shorting VA edge while 1h accepting higher. Mid-value with no edge.",
+    "notes": "Quality B. Planned R:R mid about 1:12.9. 15m/1h accepting higher. SMC none labeled. Analysis only.",
+    "session": "ny"
+  },
+  "gold": {
+    "date": "2026-09-18",
+    "when": "Fri Sep 18 \u00b7 ~8:57am ET",
+    "symbol": "XAU / USD",
+    "last": 4367.97,
+    "bias": "WAIT",
+    "quality": "B",
+    "session": "ny",
+    "banner": "Last ~4,368 mid-range after overnight high 4,399.67 and wick low 4,334.30. WAIT \u2014 bounce stalled at EMA 6/200 under 14/25/80. 1h not accepting higher vetoes chase longs. No R:R \u2265 1:2.5 short vs daily above EMA 200.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/gold-2026-09-18.png",
+    "chartLabel": "Chart \u00b7 XAUUSD OANDA \u00b7 5M",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": null,
+      "poc": null,
+      "val": null
+    },
+    "context": {
+      "vsVal": null,
+      "vsPoc": null,
+      "vsVah": null,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": null,
+      "delta": null,
+      "window": "9:00\u20139:30am ET",
+      "volume": null
+    },
+    "setup": {
+      "tag": "WAIT / mid-range pullback \u2014 no edge",
+      "trigger": "No A-setup. Bounce stalled at EMA 6/200. Longs need 1h accept higher. Shorts lack R:R \u2265 1:2.5 vs daily above EMA 200.",
+      "entry": null,
+      "stop": null,
+      "t1": null,
+      "t2": null,
+      "t3": null
+    },
+    "invalidation": "Trade call without R:R \u2265 1:2.5 or against 1h veto (LH under EMA 6/14).",
+    "doNotTradeIf": "Chase bounce into EMA 14/25/80. Short daily above EMA 200 without edge. Invent OB/FVG. Stretch stop under 4334.295 to force a long.",
+    "notes": "Quality B. 5m high 4399.670 low 4334.295. EMA 6/14/25/80/200 labeled. SMC none labeled. Source: GOLD-NY-OPEN-BRIEFING-2026-09-18.md. chartUrl pending R2 (secrets missing on box)."
   },
   "pnl": {
     "today_r": -1.0,
@@ -124,47 +208,5 @@
     ],
     "updated": "2026-09-18T08:35:00-04:00",
     "note": "Fri open: BTC + HYPE VAH pullback longs open. Today R still yesterday settle until noon."
-  },
-  "hype": {
-    "date": "2026-09-18",
-    "when": "Fri Sep 18 \u00b7 ~8:35am ET",
-    "symbol": "HYPE / USD",
-    "last": 90.637,
-    "bias": "WAIT",
-    "quality": "B",
-    "banner": "Last ~90.64 well above prior NY value (~7.88 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. 1h accepting higher vetoes VA-edge shorts.",
-    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/hype-2026-09-18.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M Hyperliquid",
-    "levels": {
-      "onh": null,
-      "onl": null,
-      "vah": 82.7572,
-      "poc": 82.1449,
-      "val": 81.721
-    },
-    "context": {
-      "vsVal": 8.916,
-      "vsPoc": 8.4921,
-      "vsVah": 7.8798,
-      "vsOnh": null,
-      "vsOnl": null,
-      "vaWidth": 1.0362,
-      "delta": null,
-      "window": "NY open",
-      "volume": null
-    },
-    "setup": {
-      "tag": "WAIT / conditional prior-NY VAH pullback hold LONG",
-      "trigger": "5m wick into VAH ~82.7572 then close holds above. No chase from ~90.64. Shorts at VA edge vetoed while 1h accepting higher.",
-      "entry": "82.70-82.80",
-      "stop": "82.14",
-      "t1": "90.64",
-      "t2": null,
-      "t3": null
-    },
-    "invalidation": "stop 82.14 (beneath VPOC)",
-    "doNotTradeIf": "Chasing from ~90.64. Shorting VA edge while 1h accepting higher. Mid-value with no edge.",
-    "notes": "Quality B. Planned R:R mid about 1:12.9. 15m/1h accepting higher. SMC none labeled. Analysis only.",
-    "session": "ny"
   }
 }
