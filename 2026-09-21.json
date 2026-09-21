@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "date": "2026-09-21",
   "sample": false,
-  "label": "Mon Sep 21 \u2014 live brief",
-  "refreshedAt": "2026-09-21T11:56:19Z",
+  "label": "Mon Sep 21 \u2014 BTC NY",
+  "refreshedAt": "2026-09-21T11:58:04Z",
   "btc": {
     "date": "2026-09-21",
-    "when": "Mon Sep 21 \u00b7 ~7:50am ET",
+    "when": "Mon Sep 21 \u00b7 ~7:54am ET",
     "symbol": "BTC / USD",
     "last": 84869.3,
     "bias": "WAIT",
     "quality": "C",
-    "banner": "Last 84,869.3 well above prior NY value (~1,450 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. HTF unread (soft veto).",
-    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-21.png",
+    "banner": "Last 84,869.3 well above prior NY value (~1,450 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. HTF unread.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-21.jpg",
     "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M binancef",
     "levels": {
       "onh": null,
@@ -30,20 +30,23 @@
       "vaWidth": 3067.1,
       "delta": null,
       "window": "NY open",
-      "volume": null
+      "volume": null,
+      "htf": null,
+      "venue": "binancef",
+      "timeframe": "5M"
     },
     "setup": {
-      "tag": "WAIT / Prior-NY VAH pullback hold LONG",
-      "trigger": "Conditional VAH pullback hold LONG. No chase from 84,869. Wait for hold in 83400\u201383440 after a pullback. HTF unread \u2014 soft veto on size.",
-      "entry": "83400-83440",
-      "stop": "83250",
-      "t1": "84870",
-      "t2": "85200",
-      "t3": "85600"
+      "tag": "WAIT \u00b7 VAH PULLBACK HOLD LONG",
+      "trigger": "Wait for a pullback into prior-NY VAH. Do not chase 84,869.",
+      "entry": "83,400\u201383,440",
+      "stop": "83,250",
+      "t1": "84,870",
+      "t2": "85,200",
+      "t3": "85,600"
     },
-    "invalidation": "stop 83250",
-    "doNotTradeIf": "Chasing from 84,869. Inventing overnight or HTF levels. Any setup that cannot clear R:R \u2265 1:2.5.",
-    "notes": "Quality C. Planned R:R mid about 1:8.5. ONH/ONL unread. HTF unread. Venue binancef 5M. Analysis only, not financial advice. Source: BTC-NY-OPEN-BRIEFING-2026-09-21.md",
+    "invalidation": "stop 83,250",
+    "doNotTradeIf": "Chasing 84,869.3; no pullback into prior-NY VAH hold.",
+    "notes": "ONH/ONL unread \u00b7 HTF unread \u00b7 Quality C \u00b7 Venue binancef 5M. Analysis only.",
     "session": "ny"
   },
   "fx": {
