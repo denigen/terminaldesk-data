@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "date": "2026-09-21",
   "sample": false,
-  "label": "Mon Sep 21 \u2014 BTC NY",
-  "refreshedAt": "2026-09-21T11:58:04Z",
+  "label": "Mon Sep 21 — BTC + HYPE + GOLD NY",
+  "refreshedAt": "2026-09-21T09:16:57-04:00",
   "btc": {
     "date": "2026-09-21",
-    "when": "Mon Sep 21 \u00b7 ~7:54am ET",
+    "when": "Mon Sep 21 · ~7:54am ET",
     "symbol": "BTC / USD",
     "last": 84869.3,
     "bias": "WAIT",
     "quality": "C",
-    "banner": "Last 84,869.3 well above prior NY value (~1,450 over VAH). WAIT \u2014 no chase. Conditional LONG only on VAH pullback hold. HTF unread.",
+    "banner": "Last 84,869.3 well above prior NY value (~1,450 over VAH). WAIT — no chase. Conditional LONG only on VAH pullback hold. HTF unread.",
     "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/btc-2026-09-21.jpg",
-    "chartLabel": "Chart \u00b7 Prior NY VPSV \u00b7 5M binancef",
+    "chartLabel": "Chart · Prior NY VPSV · 5M binancef",
     "levels": {
       "onh": null,
       "onl": null,
@@ -36,9 +36,9 @@
       "timeframe": "5M"
     },
     "setup": {
-      "tag": "WAIT \u00b7 VAH PULLBACK HOLD LONG",
+      "tag": "WAIT · VAH PULLBACK HOLD LONG",
       "trigger": "Wait for a pullback into prior-NY VAH. Do not chase 84,869.",
-      "entry": "83,400\u201383,440",
+      "entry": "83,400–83,440",
       "stop": "83,250",
       "t1": "84,870",
       "t2": "85,200",
@@ -46,14 +46,14 @@
     },
     "invalidation": "stop 83,250",
     "doNotTradeIf": "Chasing 84,869.3; no pullback into prior-NY VAH hold.",
-    "notes": "ONH/ONL unread \u00b7 HTF unread \u00b7 Quality C \u00b7 Venue binancef 5M. Analysis only.",
+    "notes": "ONH/ONL unread · HTF unread · Quality C · Venue binancef 5M. Analysis only.",
     "session": "ny"
   },
   "fx": {
     "date": "2026-09-21",
-    "when": "Mon Sep 21 \u00b7 paused",
+    "when": "Mon Sep 21 · paused",
     "title": "FX shorts",
-    "subtitle": "AM forex \u00b7 paused",
+    "subtitle": "AM forex · paused",
     "bias": "NO TRADE",
     "countPass": 0,
     "countTotal": 0,
@@ -68,7 +68,7 @@
     "today_r": 0,
     "week_r": -1.0,
     "hit_rate": null,
-    "open_count": 1,
+    "open_count": 2,
     "recent": [
       {
         "date": "2026-09-17",
@@ -94,7 +94,7 @@
         "planned_rr": 2.55,
         "status": "no_trigger",
         "realized_r": null,
-        "notes": "No pullback into 79.50\u201379.60 after brief (post-brief low 80.1890). T1 80.95 later exceeded without entry. Session since ~08:30 H/L 83.3520/80.1890. Settle chart: settle-2026-09-17/hype-5m-ny.png"
+        "notes": "No pullback into 79.50–79.60 after brief (post-brief low 80.1890). T1 80.95 later exceeded without entry. Session since ~08:30 H/L 83.3520/80.1890. Settle chart: settle-2026-09-17/hype-5m-ny.png"
       },
       {
         "date": "2026-09-18",
@@ -108,7 +108,7 @@
         "planned_rr": 7.9,
         "status": "no_trigger",
         "realized_r": null,
-        "notes": "Post-brief Hyperliquid 5M low 78000 / high 81292 (through ~12:57 ET). Entry 76880\u201376920 never tagged (low ~1080 above zone). Brief already ~78084; later run through T1 without entry. Settle: settle-2026-09-18/btc-5m-ny.png"
+        "notes": "Post-brief Hyperliquid 5M low 78000 / high 81292 (through ~12:57 ET). Entry 76880–76920 never tagged (low ~1080 above zone). Brief already ~78084; later run through T1 without entry. Settle: settle-2026-09-18/btc-5m-ny.png"
       },
       {
         "date": "2026-09-18",
@@ -122,7 +122,7 @@
         "planned_rr": 12.9,
         "status": "no_trigger",
         "realized_r": null,
-        "notes": "Post-brief Hyperliquid 5M low 90.3870 / high 92.7370 (through ~13:05 ET). Entry 82.70\u201382.80 never tagged (low ~7.59 above zone). Brief already ~90.64; later dip through 90.64 without entry. Settle: settle-2026-09-18/hype-5m-ny.png"
+        "notes": "Post-brief Hyperliquid 5M low 90.3870 / high 92.7370 (through ~13:05 ET). Entry 82.70–82.80 never tagged (low ~7.59 above zone). Brief already ~90.64; later dip through 90.64 without entry. Settle: settle-2026-09-18/hype-5m-ny.png"
       },
       {
         "date": "2026-09-21",
@@ -137,9 +137,111 @@
         "status": "open",
         "realized_r": null,
         "notes": "Official routine card Quality C; HTF unread soft veto; WAIT pullback; do not chase 848xx; binancef"
+      },
+      {
+        "date": "2026-09-21",
+        "asset": "HYPE",
+        "session": "ny",
+        "setup": "Prior-NY VAH pullback hold LONG",
+        "bias": "long",
+        "entry_mid": 93.7,
+        "stop": 92.9,
+        "t1": 96.0,
+        "planned_rr": 2.9,
+        "status": "open",
+        "realized_r": null,
+        "notes": "Official routine card Quality B; WAIT pullback to VAH; do not chase 95.48; 1h accepting higher; hyperliquid"
       }
-    ],
-    "updated": "2026-09-21T07:54:00-04:00",
-    "note": "Mon official BTC open row: stop 83250 entry_mid 83420 t1 84870 planned_rr 8.5 Quality C"
+    ]
+  },
+  "hype": {
+    "date": "2026-09-21",
+    "when": "Mon Sep 21 · ~9:12am ET (late)",
+    "symbol": "HYPE / USD",
+    "last": 95.48,
+    "bias": "WAIT",
+    "quality": "B",
+    "banner": "Last 95.48 well above prior NY value (~1.80 over VAH). WAIT — no chase. Conditional LONG only on VAH pullback hold. 1h accepting higher vetoes VA-edge shorts.",
+    "chartUrl": null,
+    "chartLabel": "Chart · Prior NY VPSV · 5M hyperliquid",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": 93.6849,
+      "poc": 92.9353,
+      "val": 91.913
+    },
+    "context": {
+      "vsVal": 3.567,
+      "vsPoc": 2.5447,
+      "vsVah": 1.7951,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": 1.7719,
+      "delta": null,
+      "window": "NY open",
+      "volume": null,
+      "htf": "15m accepting higher; 1h accepting higher",
+      "venue": "hyperliquid",
+      "timeframe": "5M"
+    },
+    "setup": {
+      "tag": "WAIT · VAH PULLBACK HOLD LONG",
+      "trigger": "Wait for a pullback into prior-NY VAH with 5m hold. Do not chase 95.48.",
+      "entry": "93.65–93.75",
+      "stop": "92.90",
+      "t1": "96.00",
+      "t2": "96.50",
+      "t3": null
+    },
+    "invalidation": "stop 92.90",
+    "doNotTradeIf": "Chasing 95.48; shorting VA edge while 1h accepting higher; no 5m hold at VAH.",
+    "notes": "ONH/ONL unread · SMC none labeled · Quality B · R:R mid ≈ 1:2.9 · Venue hyperliquid 5M. Analysis only. Chart local: /workspace/session-reports/hype/2026-09-21/hype-ny-5m.png (R2 upload blocked — secrets shape).",
+    "session": "ny"
+  },
+  "gold": {
+    "date": "2026-09-21",
+    "when": "Mon Sep 21 · ~9:00am ET (late)",
+    "symbol": "GOLD / USD",
+    "last": 4359.3,
+    "bias": "WAIT",
+    "quality": "B",
+    "banner": "Last 4,359.300 · 5m bounce under descending slower EMA. WAIT — 1h hard veto on chase longs. No A-setup. No entry.",
+    "chartUrl": "https://pub-ac2087007e634faf9142e53f088bc1c9.r2.dev/charts/gold-2026-09-21.jpg",
+    "chartLabel": "Chart · XAUUSD OANDA · 5M",
+    "levels": {
+      "onh": null,
+      "onl": null,
+      "vah": null,
+      "poc": null,
+      "val": null
+    },
+    "context": {
+      "vsVal": null,
+      "vsPoc": null,
+      "vsVah": null,
+      "vsOnh": null,
+      "vsOnl": null,
+      "vaWidth": null,
+      "delta": null,
+      "window": "9:00–9:30am ET",
+      "volume": null,
+      "htf": "1h below descending slower EMA (hard veto on chase longs)",
+      "venue": "OANDA",
+      "timeframe": "5M"
+    },
+    "setup": {
+      "tag": "WAIT / 1H VETO — NO ENTRY",
+      "trigger": "No A-setup. 5m rebounded from 4,336–4,340 into ~4,359 under the descending slower EMA. 1h bearish-to-neutral — hard veto on chase longs. Shorts from 4,380 into 4,340 fail R:R ≥ 1:2.5 without stretching the stop.",
+      "entry": "none",
+      "stop": "none",
+      "t1": null,
+      "t2": null,
+      "t3": null
+    },
+    "invalidation": "Calling a long while 1h stays below the descending slower EMA, or forcing a short into 4,340 with R:R under 1:2.5.",
+    "doNotTradeIf": "Chasing the 5m bounce into 4,380 while 1h rejects. Shorting mid-range without a clean 4,380 fail and R:R ≥ 1:2.5. Inventing OB/FVG labels (none on chart). Stretching stops past labeled bands just to force a card.",
+    "notes": "OANDA:XAUUSD · fparson trade · metals. Last 4,359.300 (−19.085 / −0.44%). Axis 4,360/4,356; bounce base ~4,336–4,340; High unread. VAH/POC/VAL/ONH/ONL unread. SMC none labeled. Quality B. Analysis only.",
+    "session": "ny"
   }
 }
