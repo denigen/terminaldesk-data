@@ -3,7 +3,7 @@
   "date": "2026-09-21",
   "sample": false,
   "label": "Mon Sep 21 — BTC + HYPE + GOLD NY · P&L settled ~12:50pm ET",
-  "refreshedAt": "2026-09-21T12:52:46-04:00",
+  "refreshedAt": "2026-09-21T12:54:11-04:00",
   "btc": {
     "date": "2026-09-21",
     "when": "Mon Sep 21 · ~7:54am ET",
@@ -66,7 +66,7 @@
   },
   "pnl": {
     "today_r": -1.0,
-    "week_r": -2.0,
+    "week_r": -1.0,
     "hit_rate": 0.0,
     "open_count": 0,
     "recent": [
@@ -136,7 +136,7 @@
         "planned_rr": 8.5,
         "status": "no_trigger",
         "realized_r": null,
-        "notes": "Post-brief binancef/MMT 5M: entry 83400–83440 never tagged. Brief already ~84869 near T1; NY session ran ~86510 then back to ~84834 (settle ~12:47 ET). Low stayed well above entry (~1400+). T1 printed without entry. Settle: settle-2026-09-21/btc-5m-ny.png"
+        "notes": "Post-brief binancef 5M low 84785.1 / high 86340.0 / last 85961.6. Entry 83390–83440 never tagged (low ~1345 above zone). T1 84870 already at/above brief last ~84869 and tagged without entry. Stop 83250 never tagged. Settle: settle-2026-09-21/btc-5m-ny.png"
       },
       {
         "date": "2026-09-21",
@@ -150,11 +150,11 @@
         "planned_rr": 2.9,
         "status": "stopped",
         "realized_r": -1.0,
-        "notes": "Entry zone 93.65–93.75 tagged on NY pullback (~11:00 ET). Stop 92.90 breached (wick low ~92.534 labeled ~12:15 ET). T1 96.00 not printed after entry (pre-brief high ~96+ only). Last ~93.53 at settle. Settle: settle-2026-09-21/hype-5m-ny.png"
+        "notes": "Post-brief Hyperliquid 5M high 96.0760 / low 92.5230 / last 93.5280. Order: T1 96.00 tagged first (extension), then entry 93.65–93.75 on pullback, then stop 92.90 (session low 92.5230). After entry, stop printed before any re-tag of T1. Settle: settle-2026-09-21/hype-5m-ny.png"
       }
     ],
     "updated": "2026-09-21T12:52:00-04:00",
-    "note": "Mon noon settle: BTC no_trigger; HYPE stopped −1.0R. GOLD WAIT no row. FX paused. open_count 0."
+    "note": "Mon noon settle: BTC NY VAH long no_trigger; HYPE NY VAH long stopped −1.0R. Asia Fri WAIT (no rows). GOLD WAIT no row. FX paused."
   },
   "hype": {
     "date": "2026-09-21",
